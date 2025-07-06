@@ -16,3 +16,4 @@ Este proyecto despliega una aplicación Node.js contenida en Docker dentro de Az
 Actualizado: agregados secretos de DockerHub.
 # Trigger build
 # retry deploy
+deploy test
