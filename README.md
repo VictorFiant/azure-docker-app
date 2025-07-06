@@ -15,3 +15,4 @@ Este proyecto despliega una aplicación Node.js contenida en Docker dentro de Az
 - `main.tf`: Define la infraestructura.
 Actualizado: agregados secretos de DockerHub.
 # Trigger build
+# retry deploy
