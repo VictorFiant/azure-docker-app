@@ -13,3 +13,4 @@ Este proyecto despliega una aplicación Node.js contenida en Docker dentro de Az
 - `docker/`: Contiene la app y el Dockerfile.
 - `.github/workflows/`: CI/CD para build + push + deploy.
 - `main.tf`: Define la infraestructura.
+Actualizado: agregados secretos de DockerHub.
