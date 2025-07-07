@@ -51,3 +51,32 @@ This project demonstrates a full deployment pipeline of a Docker-based Node.js a
 
 Once deployed, the application will be accessible via:
 
+https://dockerappterraform.azurewebsites.net/
+
+
+> Make sure the Docker image is public on Docker Hub or use Azure Container Registry for private images.
+
+## 🧪 Example Output
+
+Terraform apply complete!
+Outputs:
+app_url = "https://dockerappterraform.azurewebsites.net/"
+
+
+## 📌 Notes
+
+- `F1` Free Tier on Azure does **not** support `always_on`.
+- Ensure Docker image is tagged `latest` (or match your `main.yml` config).
+- You can change the app content in `app/index.js`.
+
+## 🧠 Learning Goals
+
+- Hands-on experience with Terraform in Azure
+- Automate deployments with CI/CD workflows
+- Real-world DevOps pipeline using open technologies
+
+---
+
+🛠️ Built by [Victor Fiant](https://github.com/fiantvictor)
+
+
